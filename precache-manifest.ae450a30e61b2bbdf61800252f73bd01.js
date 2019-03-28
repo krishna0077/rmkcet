@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/rmkcet/static/media/Audited_Statement_15-16.9198010a.pdf"
   },
   {
-    "revision": "3de005f63f0a21e6af3d",
+    "revision": "b22448b4d5610ec7aacb",
     "url": "/rmkcet/static/css/main.52388bcc.chunk.css"
   },
   {
@@ -128,8 +128,8 @@ self.__precacheManifest = [
     "url": "/rmkcet/static/media/Audited_Statement_16-17.0c91b314.pdf"
   },
   {
-    "revision": "3de005f63f0a21e6af3d",
-    "url": "/rmkcet/static/js/main.3de005f6.chunk.js"
+    "revision": "b22448b4d5610ec7aacb",
+    "url": "/rmkcet/static/js/main.b22448b4.chunk.js"
   },
   {
     "revision": "683f2591173b099f458370a1ff3c8630",
@@ -252,7 +252,7 @@ self.__precacheManifest = [
     "url": "/rmkcet/static/css/2.1864ec85.chunk.css"
   },
   {
-    "revision": "8411aa5c9176e922fb8b2c67a825385e",
+    "revision": "bc474b858f73392c32619916a4186f19",
     "url": "/rmkcet/index.html"
   }
 ];
