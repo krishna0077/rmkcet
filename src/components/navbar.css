@@ -1,0 +1,31 @@
+/* .nav-item .nav-link {
+  margin-right: 1008888px;
+} */
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+#dropDown {
+  min-width: 180px;
+}
+#divideDropDown {
+  min-width: 450px;
+}
+#divideDropDownBig {
+  min-width: 500px;
+}
+#divideDropDownLarge {
+  min-width: 650px;
+}
+
+#navContent {
+  color: white;
+}
+#assa {
+  background: rgb(1, 74, 99);
+  box-shadow: rgb(35, 34, 34) 0px 1px 5px;
+}
+button.navbar-toggler {
+  background-color: white;
+  box-shadow: 0em;
+}

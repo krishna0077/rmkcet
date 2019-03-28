@@ -1,0 +1,279 @@
+.section-header03 h2 span {
+  color: #286090;
+  font-size: -webkit-xxx-large;
+}
+.section-header03 h2 {
+  font-size: -webkit-xxx-large;
+}
+.about-ds .section-header03 h2 {
+  margin-bottom: 5%;
+}
+.line {
+  width: 100%;
+}
+.section-header03 p {
+  font-family: "Raleway", sans-serif;
+}
+#image {
+  margin-top: 6%;
+}
+
+h3 {
+  color: #323232;
+}
+
+.about-ds-content ul.list-unstyled li {
+  color: #000000;
+  padding-bottom: 15px;
+  position: sticky;
+  padding-left: 25px;
+}
+
+figure.effect-oscar {
+  background: linear-gradient(45deg, #22682a 0%, #9b4a1b 0%, #3a342a 0%);
+}
+
+figure.effect-oscar figcaption::before {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  /* border: 1px solid #fff; */
+  content: "";
+}
+
+figure.effect-oscar h2 {
+  margin: 20% 0 10px 0;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+
+figure.effect-oscar figcaption::before,
+figure.effect-oscar p {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+figure.effect-oscar:hover h2 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+figure.effect-oscar:hover figcaption::before,
+figure.effect-oscar:hover p {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+figure.effect-oscar:hover figcaption {
+  background-color: rgba(58, 52, 42, 0);
+}
+
+figure.effect-oscar:hover img {
+  opacity: 0.4;
+}
+
+.grid {
+  position: relative;
+  margin: 0 auto;
+  padding: 1em 0 4em;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
+}
+
+/* Common style */
+.grid figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 320px;
+  max-width: 480px;
+  max-height: 360px;
+  width: 48%;
+
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.grid figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.grid figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+
+.grid figure h2 span {
+  font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+  margin: 0;
+}
+
+.grid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+.table,
+.panel {
+  margin-left: 16%;
+  background-color: #fff;
+  font-family: "Libre Baskerville";
+}
+.panel-body h4 {
+  color: red;
+  font-family: "Libre Baskerville";
+}
+.panel-heading {
+  background-color: #286090;
+  color: white;
+  height: 35px;
+  border: none;
+}
+.faqHeader {
+  font-size: 40px;
+  margin: 20px;
+  color: white;
+  margin-left: 18%;
+  font-family: Crete Round;
+}
+
+.panel-heading [data-toggle="collapse"]:after {
+  font-family: "fontawesome";
+  content: "\f054"; /* "play" icon */
+  float: right;
+  color: white;
+  font-size: 18px;
+  line-height: 22px;
+  transform: rotate(90deg);
+  margin-right: 10px;
+  color: white;
+  margin-top: 8px;
+  /* rotate "play" icon from > (right arrow) to down arrow */
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.panel-heading [data-toggle="collapse"].collapsed:after {
+  /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  color: white;
+}
+.panel-title a {
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  word-break: break-all;
+  font-size: 60%;
+}
+.panel-title a:hover {
+  color: white;
+  text-decoration: none;
+}
+.line {
+  color: black;
+}
+.panel-body p {
+  margin-left: 21px;
+  text-align: initial;
+  font-family: serif;
+}
+.table thead tr,
+.tbody th {
+  color: white;
+  background-color: #286090;
+  border-color: #000000;
+}
+.col-3 {
+  background-color: #286090;
+  color: white;
+  border-radius: 1.25rem;
+  height: 0%;
+  margin-left: 3%;
+  min-width: 19%;
+}
+.col-3 a {
+  color: white;
+}
+.col-3 a:hover {
+  color: white;
+}
+.col-md-9 {
+  margin-left: 22px;
+}
+.panel-heading center{
+  padding-top: 5px;
+}
+
+.about-ds-content ul.list-unstyled li{color:#727272;padding-bottom:15px;position:relative;padding-left:25px;}
+.about-ds-content ul.list-unstyled li:before{position:absolute;content:"\f00c";font-family:FontAwesome;color:#286090;left:0;top:0;}
+.about-ds-content ul.list-unstyled li:last-child{padding-bottom:0;}
+
+.section-header03 h3{font-weight:600;line-height:44px;margin:0 0 30px 0;padding:0 0 30px 0;position:relative;text-transform:uppercase;font-family: 'Times New Roman', Times, serif;}
+.section-header03 h3:after{position:absolute;content:"";width:120px;height:1px;background:#323232;left:0;bottom:0;}
+.section-header03 h3 span{color:#286090;}
+
+.section-header03 h2{font-weight:600;line-height:44px;margin:0 0 30px 0;padding:0 0 30px 0;position:relative;text-transform:uppercase;font-family: 'Times New Roman', Times, serif;}
+.section-header03 h2:after{position:absolute;content:"";width:120px;height:1px;background:#323232;left:0;bottom:0;}
+.section-header03 h2 span{color:#286090;}
+
+.section-header03 h4{font-weight:600;line-height:44px;margin:0 0 30px 0;padding:0 0 30px 0;position:relative;text-transform:uppercase;font-family: 'Times New Roman', Times, serif;}
+.section-header03 h4:after{position:absolute;content:"";width:120px;height:1px;background:#323232;left:0;bottom:0;}
+.section-header03 h4 span{color:#286090;}
